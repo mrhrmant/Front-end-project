@@ -11,11 +11,20 @@
     <div class="container">
         <h2 id="counter">Counter</h2>
         <p id="stop-watch">0</p>
-        <input type="number" id="set-second" placeholder="Enter Second" min="0" >
+        <input type="number" id="set-second" placeholder="Enter Second" min="0"  >
+
+        <!-- working -->
+        <div class="option">
+
+            <button class="optionBtn" id="ten=">10</button>
+            <button class="optionBtn" id="twenty=">20</button>
+            <button class="optionBtn" id="minute=">60</button>
+            <button class="optionBtn" id="twomin">120</button>
+        </div>
         <div class="btns">
-            <button id="btn">Start</button>
-            <button id="stop">Stop</button>
-            <button id="reset">Reset</button>
+            <button id="btn" onclick="toggle();">Start</button>
+            <button id="stop" >Stop</button>
+            <button id="clear">Clear</button>
         </div>
     </div>
 
