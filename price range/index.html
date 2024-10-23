@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Set Price Range</h1>
+        <div class="minBox">
+            <label>Minimum Price </label>
+            <input type="number" id="mini" value="5000" min="500"  max="10000"/>
+        </div>
+        
+        <div class="rangeBox">
+        <input type="range" id="rangeIdMin" min="1000" max="10000"  value="5000" list="marker">
+        <datalist id="marker">
+            <option value="2000" label="2000"></option>
+            <option value="4000" label="4000"></option>
+            
+            <option value="6000" label="6000"></option>
+            <option value="8000" label="8000"></option>
+            <option value="10000" label="10000"></option>
+            
+            
+            
+        </datalist>
+    </div>   
+    <div class="maxBox">
+        <label>Maximum Price</label>
+        <input type="number" id="maxi" value="8500">
+    </div>
+    <input type="range" id="rangeIdMax" min="1000" max="10000"  step="5" value="9000">
+    <!-- <input type="range" step="10" min="0" max="100"> -->
+    <button id="save">Save</button>
+    <p id="filterPrice"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

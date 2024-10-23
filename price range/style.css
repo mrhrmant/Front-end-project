@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+
+}
+
+h1 {
+    font-size: 2vw;
+    margin-top: 2vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 30vw;
+    height: 30vw;
+    text-align: center;
+    margin-left: 35vw;
+    margin-top: 10vw;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 30px 10px rgb(181, 181, 181);
+
+}
+
+datalist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    writing-mode: vertical-lr;
+    width: 175px;
+    margin-left: 9.6vw;
+    font-size: 1vw;
+
+}
+option {
+    padding: 0;
+  }
+  
+  input[type="range"] {
+    width: 200px;
+    margin: 0;
+  }
+
+#save {
+    width: 10vw;
+    height: 3vw;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: rgb(0, 166, 255);
+    margin-left: 10vw;
+}
+
+#save:hover {
+    background-color: green;
+}
+
+#mini,
+#maxi {
+    background-color: rgb(223, 223, 223);
+    border: none;
+    border-radius: 0.2rem;
+    width: 10vw;
+    height: 2vw;
+    font-size: 1vw;
+    text-align: center;
+    outline: none;
+}
+
+label {
+    font-size: 1.5vw;
+}
+
+.minBox {
+    margin-top: 5vw;
+}
+
+#rangeIdMin,
+#rangeIdMax {
+    margin-top: 1vw;
+    width: 15vw;
+    height: 2vw;
+
+}
+
+#rangeIdMax {
+    margin-left: 7.5vw;
+}
+
+#filterPrice {
+    font-size: 1vw;
+}
